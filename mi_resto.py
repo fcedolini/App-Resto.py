@@ -75,7 +75,8 @@ def recibo():
     texto_recibo.delete(1.0, 'end')
     num_recibo = f'N# - {random.randint(1000, 9999)}'
     fecha = datetime.datetime.now()
-    fecha_recibo = f'{fecha.day}/{fecha.month}/{fecha.year} - {fecha.hour}:{fecha.minute}'
+    fecha_recibo = f'{
+        fecha.day}/{fecha.month}/{fecha.year} - {fecha.hour}:{fecha.minute}'
     texto_recibo.insert('end', f'Datos:\t{num_recibo}\t\t{fecha_recibo}\n')
     texto_recibo.insert('end', '*' * 57 + '\n')
     texto_recibo.insert('end', 'Items\t\tCant.\tCosto Items\n')
