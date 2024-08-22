@@ -3,7 +3,7 @@ import random
 import datetime
 from tkinter import filedialog, messagebox
 
-
+operadores = ''
 operador = ''
 
 precios_comida = [1.32, 1.65, 2.31, 3.22, 1.22, 1.99, 2.05, 2.65]
