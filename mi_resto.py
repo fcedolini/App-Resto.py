@@ -3,6 +3,7 @@ import random
 import datetime
 from tkinter import filedialog, messagebox
 
+operadores3 = ''
 operadores = ''
 operador = ''
 
