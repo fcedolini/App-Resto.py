@@ -1,7 +1,4 @@
-## Readme en Markdown
+## App Restaurante
 
-**negritas**
+Con tkinter para interface de usuario
 
-_cursiva_
-
-[Enlace a Google](https://www.google.com.es)
